@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+}
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-purple-beautiful-romantic-cool-fresh-banner-background-image_156587.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center; 
+}
+
+.seleccion-menu {
+    width: 550px;
+    margin: 280px auto;
+}
+.sbtn_text{
+    font-size: 25px;
+}
+
+.seleccion-menu .seleccion-btn {
+display: flex;
+height: 55px;
+background: #d3c7fe;
+padding: 25px;
+color: #fff;
+font-size: 15px;
+font-weight: 600;
+text-transform: capitalize;
+border-radius: 15px;
+align-items: center;
+cursor: pointer;
+justify-content: space-between;
+box-shadow: 0 0 8px; color: rgb(0, 0, 0);
+}
+.seleccion-btn i{
+    font-size: 65px;
+    transition: .3s ease;
+}
+
+.seleccion-menu .opcion-texto{
+    position: relative;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 25px;
+    background: #eeebf4;
+    border: 3px solid #bfb2ed;
+    box-shadow: 0 0 80px; color: #d3c7fe;
+    transition: .3s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+.seleccion-menu.active .opcion-texto{
+    visibility: visible;
+    opacity: 1;
+}
+.opcion-texto {
+    display: flex;
+
+    height: 35px;
+    cursor: pointer;
+    padding: 0 20px;
+    border-radius: 250px;
+    align-items: center;
+    background: #eeebf4;
+    transition: .5s ease;
+}
+.opcion-texto:hover{
+    background: #cfc5f3;
+}
+.opcion-texto i{
+    font-size: 30px;
+    margin-right: 12px;
+} 
+.opcion_texto{
+    font-size: 22px;
+    color: #231a42;
+}
